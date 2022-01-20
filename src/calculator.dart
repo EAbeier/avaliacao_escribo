@@ -1,5 +1,6 @@
 class Calculator {
   final int _number;
+
   var _total = 0;
 
   Calculator(this._number);

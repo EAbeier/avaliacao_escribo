@@ -24,7 +24,7 @@ void main() {
       if (number != null && number > 0) {
         final calculator = Calculator(number);
         var total = calculator.calcule();
-        print(total);
+        print("valor total: " + total.toString());
       } else {
         print("Valor informado não é um número positivo inteiro");
       }
